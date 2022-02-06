@@ -6,7 +6,7 @@
           "securityDefinitions": {
             "oauth2": {
               "flow": "implicit",
-              "authorizationUrl": "javascript: alert (document.cookie);//",
+              "authorizationUrl": "javascript: alert (1);//",
               "scopes": {
                 "web-api": "testing"
               },
